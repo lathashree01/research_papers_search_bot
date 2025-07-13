@@ -2,7 +2,6 @@ import pandas as pd
 import pickle
 from langchain_core.documents import Document
 
-
 class DocumentLoader:
     def __init__(self, file_path=None):
         """Initialize the DocumentLoader with a file path."""
